@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "prettyjson": "~1.1.3",
-    "sentence-tokenizer": "0.0.7"
+    "sentence-tokenizer": "0.0.7",
+    "minimist": "~1.2.0",
+    "colors": "~1.1.2"
   }
 }

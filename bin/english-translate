@@ -1,0 +1,43 @@
+#!/usr/bin/env node
+
+var translator = require('../lib/american-british-english-translator');
+var fs = require('fs');
+var argv = require('minimist')(process.argv.slice(2));
+
+var options = {
+	british: argv.british || process.env.TRANSLATE_BRITISH,
+	american: argv.american || process.env.TRANSLATE_AMERICAN,
+};
+
+var translate = function(input){
+	console.log(translator.translate(input, options));
+};
+
+if (argv._.length) {
+	// First parameter is the file to read and parse
+	var filename = argv._[0];
+	try {
+		translate(fs.readFileSync(filename, 'utf8'));
+	} catch (e) {
+		console.error('Error: '.red + "File '" + filename + "' does not exist");
+		process.exit(1);
+	}
+} else {
+	// Read input stream
+
+	var streamData = '';
+
+	process.stdin.resume();
+	process.stdin.setEncoding('utf8');
+	process.stdin.on('data', function (chunk) {
+		if (chunk === '\n') {
+			translate(streamData);
+			streamData = '';
+			return;
+		}
+		streamData += chunk;
+	});
+	process.stdin.on('end', function(){
+		translate(streamData);
+	});
+}
