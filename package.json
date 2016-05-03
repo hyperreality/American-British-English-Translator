@@ -1,10 +1,28 @@
 {
   "name": "american-british-english-translator",
-  "version": "0.0.0",
-  "description": "Convert American English to British English and vice-versa",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Translate from American English to British English and vice-versa",
+  "main": "./lib/american-british-english-translator.js",
+  "keywords": [
+    "American English",
+    "British English",
+    "dialect",
+    "translate",
+    "translation",
+    "spelling"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperreality/American-British-English-Translator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hyperreality/American-British-English-Translator/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "english-translate": "./bin/english-translate"
   },
   "author": "Hyperreality",
   "license": "MIT",
