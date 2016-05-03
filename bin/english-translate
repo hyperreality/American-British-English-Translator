@@ -5,8 +5,10 @@ var fs = require('fs');
 var argv = require('minimist')(process.argv.slice(2));
 
 var options = {
-	british: argv.british || process.env.TRANSLATE_BRITISH,
 	american: argv.american || process.env.TRANSLATE_AMERICAN,
+	british: argv.british || process.env.TRANSLATE_BRITISH,
+	exclusive: argv.exclusive || process.env.TRANSLATE_EXCLUSIVE,
+	spelling: argv.spelling || process.env.TRANSLATE_SPELLING,
 };
 
 var translate = function(input){
@@ -16,12 +18,8 @@ var translate = function(input){
 if (argv._.length) {
 	// First parameter is the file to read and parse
 	var filename = argv._[0];
-	try {
-		translate(fs.readFileSync(filename, 'utf8'));
-	} catch (e) {
-		console.error('Error: '.red + "File '" + filename + "' does not exist");
-		process.exit(1);
-	}
+	translate(fs.readFileSync(filename, 'utf8'));
+
 } else {
 	// Read input stream
 
