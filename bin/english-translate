@@ -9,6 +9,8 @@ var options = {
 	british: argv.british || process.env.TRANSLATE_BRITISH,
 	exclusive: argv.exclusive || process.env.TRANSLATE_EXCLUSIVE,
 	spelling: argv.spelling || process.env.TRANSLATE_SPELLING,
+	showall: argv.showall || process.env.TRANSLATE_SHOWALL,
+	count: argv.count || process.env.TRANSLATE_COUNT,
 };
 
 var translate = function(input){
