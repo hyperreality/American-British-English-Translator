@@ -1,11 +1,11 @@
 # American British English Translator
 
 Reads in a text and identifies words that differ in usage between American English and British English, including:
-  1. Words with alternative spellings ("cozy"/"cosy")
+  1. Words with alternative spellings ("cozy" / "cosy")
   2. Words with different meanings in each of the two dialects ("pants")
-  3. Words typically used in only one of the dialects ("ladybug"/"ladybird")
+  3. Words typically used in only one of the dialects ("ladybug" / "ladybird")
 
-Existing solutions only notice the first category of words, thus failing to prevent the most embarrassing mistakes, such as a British person asking an American colleague if they can borrow a "rubber".
+Existing solutions only notice the first category of words, thus failing to prevent the most embarrassing mistakes, such as a British person asking an American colleague for a "rubber".
 
 ## Installation
 
@@ -45,11 +45,11 @@ $ english-translate
 
 ### Command line options
 
-By default `english-translate` outputs everything it can, but it's possible to refine the output and thus speed up the program by using some command line options:
+By default `english-translate` outputs almost everything it can*, but it's possible to refine the output and thus speed up the program by using some command line options:
 
 ```bash
 # Only identify Americanisms
-$ english-translate --american
+$ english-translate file.txt --american
 
 # Only identify Britishisms
 $ english-translate --british
@@ -63,9 +63,14 @@ $ english-translate --british --spelling
 # Don't check spelling differences, only check for meanings exclusive to one of the dialects
 $ english-translate --exclusive
 
+# Print a count of dialect features
+$ english-translate --count
+
 # Do not use colors
 $ english-translate --no-color
 ```
+
+* Common words with tiny subtleties in meaning, such as 'can' or 'through', are ignored by default. These words are configured in data/ignore_list.json. If you want to include them then pass the `--showall` flag.
 
 ## Usage (from Node.js)
 
@@ -74,10 +79,11 @@ Include it in your script and call the `translate()` method:
 ```javascript
 var translator = require('american-british-english-translator');
 
-var data = "I was gobsmacked"
+var data = "I was gobsmacked";
 
 var options = {
-  british: true
+  british: true,
+  count: true
 };
 
 console.log(translator.translate(data, options));
