@@ -14,7 +14,7 @@ var options = {
 };
 
 var translate = function(input){
-	console.log(translator.translate(input, options));
+	console.log(translator.parse(input, options));
 };
 
 if (argv._.length) {
