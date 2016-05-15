@@ -60,11 +60,8 @@ $ english-translate --spelling
 # Only check for British spellings
 $ english-translate --british --spelling
 
-# Don't check spelling differences, only check for meanings exclusive to one of the dialects
+# Don't check spelling differences or different meanings, only check for meanings exclusive to one of the dialects
 $ english-translate --exclusive
-
-# Print a count of dialect features
-$ english-translate --count
 
 # Do not use colors
 $ english-translate --no-color
@@ -90,6 +87,8 @@ console.log(translator.translate(data, options));
 ```
 
 ## Sources
+
+Uses modified versions of the following lists:
 
   - [List of words having different meanings in American and British English: A-L](https://en.wikipedia.org/wiki/List_of_words_having_different_meanings_in_British_and_American_English:_A%E2%80%93L)
   - [List of words having different meanings in American and British English: M-Z](https://en.wikipedia.org/wiki/List_of_words_having_different_meanings_in_British_and_American_English:_M%E2%80%93Z)
