@@ -10,11 +10,12 @@ var options = {
 	british: argv.british,
 	exclusive: argv.exclusive,
 	spelling: argv.spelling,
+	different: argv.different,
 	showall: argv.showall
 };
 
 var translate = function(input){
-	console.log(prettyjson.render(translator.parse(input, options)));
+	console.log(prettyjson.render(translator.translate(input, options)));
 };
 
 if (argv._.length) {
