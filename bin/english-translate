@@ -11,11 +11,18 @@ var options = {
 	exclusive: argv.exclusive,
 	spelling: argv.spelling,
 	different: argv.different,
-	showall: argv.showall
+	showall: argv.showall	
 };
 
 var translate = function(input){
-	console.log(prettyjson.render(translator.translate(input, options)));
+	translated = translator.translate(input, options);
+
+	if (require.main === module) {
+		if ((Object.keys(translated).length === 1) && translated[0]) console.log(prettyjson.render(translated[0]));
+		else console.log(prettyjson.render(translated));
+	} else {
+    		return JSON.stringify(translated);
+	}
 };
 
 if (argv._.length) {

@@ -83,7 +83,7 @@ var options = {
   count: true
 };
 
-console.log(translator.translate(data, options));
+console.log(JSON.stringify(translator.translate(data, options)));
 ```
 
 ## Sources
