@@ -1,6 +1,6 @@
 {
   "name": "american-british-english-translator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Translate between American English and British English",
   "main": "./lib/american-british-english-translator.js",
   "keywords": [
