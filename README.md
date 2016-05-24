@@ -1,5 +1,7 @@
 # American British English Translator
 
+Now online at: [http://codewordsolver.com/american-british-english-translator](http://codewordsolver.com/american-british-english-translator)
+
 Reads in a text and identifies words that differ in usage between American English and British English, including:
   1. Words with alternative spellings ("cozy" / "cosy")
   2. Words with different meanings in each of the two dialects ("pants")
@@ -79,8 +81,7 @@ var translator = require('american-british-english-translator');
 var data = "I was gobsmacked";
 
 var options = {
-  british: true,
-  count: true
+  british: true
 };
 
 console.log(JSON.stringify(translator.translate(data, options)));
