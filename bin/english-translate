@@ -1,51 +1,44 @@
 #!/usr/bin/env node
 
+'use strict';
+
 var translator = require('../lib/american-british-english-translator');
 var fs = require('fs');
 var argv = require('minimist')(process.argv.slice(2));
 var prettyjson = require('prettyjson');
 
 var options = {
-	american: argv.american,
-	british: argv.british,
-	exclusive: argv.exclusive,
-	spelling: argv.spelling,
-	different: argv.different,
-	showall: argv.showall	
+    american: argv.american,
+    british: argv.british,
+    exclusive: argv.exclusive,
+    spelling: argv.spelling,
+    different: argv.different,
+    showall: argv.showall
 };
 
-var translate = function(input){
-	translated = translator.translate(input, options);
+var translate = function (input) {
+    var translated = translator.translate(input, options);
 
-	if (require.main === module) {
-		if ((Object.keys(translated).length === 1) && translated[0]) console.log(prettyjson.render(translated[0]));
-		else console.log(prettyjson.render(translated));
-	} else {
-    		return JSON.stringify(translated);
-	}
+    if (require.main === module) {
+        console.log(prettyjson.render(translated));
+    } else {
+        return JSON.stringify(translated);
+    }
 };
 
 if (argv._.length) {
-	// First parameter is the file to read and parse
-	var filename = argv._[0];
-	translate(fs.readFileSync(filename, 'utf8'));
-
+    var filename = argv._[0];
+    fs.readFile(filename, 'utf8', function (err, contents) {
+        if (err) {
+            throw new Error("Could not open file");
+        }
+        translate(contents);
+    });
 } else {
-	// Read input stream
-
-	var streamData = '';
-
-	process.stdin.resume();
-	process.stdin.setEncoding('utf8');
-	process.stdin.on('data', function (chunk) {
-		if (chunk === '\n') {
-			translate(streamData);
-			streamData = '';
-			return;
-		}
-		streamData += chunk;
-	});
-	process.stdin.on('end', function(){
-		translate(streamData);
-	});
+    // Read input stream
+    process.stdin.resume();
+    process.stdin.setEncoding('utf8');
+    process.stdin.on('data', function (streamData) {
+        translate(streamData);
+    });
 }
