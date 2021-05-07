@@ -16,6 +16,10 @@
     "British English": "good, excellent (informal)",
     "Common": "a one in a suit of playing cards\nsomeone who is very good at something\n(tennis) a winning serve in which the receiver does not touch the ball\nfighter pilot who has shot down at least 5 enemy aircraft"
   },
+  "advert": {
+    "British English": "(n.) a contraction of advertisement",
+    "Common": "(v.) to turn the attention to or refer to something"
+  },
   "advocate": {
     "British English": "Scottish also the Isle of Man, Channel Islands and South African lawyer who \nappears in higher courts (rest of UK: barrister)",
     "Common": "someone who supports or speaks for a particular position\ngeneric term for a lawyer\n(v.) to recommend or support"
@@ -23,6 +27,10 @@
   "air marshal": {
     "British English": "a senior air force officer (equivalent to a USAF Lt. General)",
     "Common": "an undercover law enforcement officer on board a commercial aircraft, also \nknown as a sky marshal"
+  },
+  "à la mode": {
+    "American English": "with ice cream (ex. Apple pie à la mode)",
+    "Common": "fashionable"
   },
   "allotment": {
     "British English": "a parcel of land in a community garden",
@@ -58,7 +66,12 @@
     "American English": "usu. rented housing unit in a larger building (usu. flat in UK)– cf. s.v. \ncondominium",
     "British English": "suite of rooms set aside for a particular person (rare), usu. rented \nhousing unit in a larger building implying luxury (In other words, a \nnarrower definition than the US.) (Overlapping with the rare usage in \nreference to stately homes or historic properties which have been converted \ninto residential units.)"
   },
-  "appropriate (v.), appropriation (n.)": {
+  "appropriate": {
+    "American English": "to dispense (money), to budget",
+    "British English": "to take (money) to oneself, to filch or misappropriate",
+    "Common": "to take (money) (there is considerable overlap but difference of emphasis)"
+  },
+  "appropriation": {
     "American English": "to dispense (money), to budget",
     "British English": "to take (money) to oneself, to filch or misappropriate",
     "Common": "to take (money) (there is considerable overlap but difference of emphasis)"
@@ -130,10 +143,6 @@
     "American English": "female vagina (slang)",
     "British English": "beard; a bearded man (archaic slang)",
     "Common": "aquatic rodent known for building dams\nwoman's undepilated external genitalia (obscene slang)"
-  },
-  "bee": {
-    "American English": "a meeting for communal work or amusement",
-    "Common": "a four-winged insect which collects nectar and pollen, produces wax and \nhoney, and lives in large communities"
   },
   "bender": {
     "American English": "A period of extensive drug use: \"He went on a 3 week heroin bender",
@@ -359,6 +368,10 @@
     "American English": "to predict or anticipate (\"The forecast calls for rain\")",
     "Common": "to require or advocate"
   },
+  "calipers": {
+    "British English": "(n.) A metal support for a person's leg and/or ankle. (US: ankle braces, leg braces)",
+    "Common": "(n.) An instrument for measuring external or internal dimensions, having two hinged legs resembling a pair of compasses and in-turned or out-turned points."
+  },
   "callbox": {
     "American English": "roadside emergency telephone",
     "British English": "telephone booth (UK also telephone box)"
@@ -413,7 +426,12 @@
     "British English": "railway coach (q.v.) designed for the conveyance of passengers\nthe conveying of goods or the price paid for it (\"carriage-paid\"); \n\"handling",
     "Common": "4-wheeled horse-drawn private passenger vehicle"
   },
-  "carry on, carryon": {
+  "carry on": {
+    "American English": "luggage that can be carried aboard an aircraft, bus, or train (UK: hand \nluggage or baggage)",
+    "British English": "(informal) have a love affair",
+    "Common": "(colloquial) carrying-on, unruly behaviour\n(v.) continue (Keep Calm and Carry On)"
+  },
+  "carryon": {
     "American English": "luggage that can be carried aboard an aircraft, bus, or train (UK: hand \nluggage or baggage)",
     "British English": "(informal) have a love affair",
     "Common": "(colloquial) carrying-on, unruly behaviour\n(v.) continue (Keep Calm and Carry On)"
@@ -422,11 +440,11 @@
     "American English": "a lightweight wheeled vehicle, as for shopping, serving, carrying baggage, \netc. (UK: trolley)\ncartridge (primarily related to video games)",
     "Common": "usu. 2-wheeled one-horse vehicle (as that used in farming)"
   },
-  "casket (n.)": {
+  "casket": {
     "American English": "The type of coffin with upholstery and a half-open lid, any coffin",
     "British English": "a small box, as for jewels, particularly an antique"
   },
-  "casualty (person)": {
+  "casualty": {
     "American English": "often, someone who has been killed; see also casualty insurance",
     "British English": "often, someone who has been wounded; hence casualty department (US: emergency \nroom)",
     "Common": "generally, someone who has been injured or killed"
@@ -448,7 +466,7 @@
     "American English": "a store or shop cashier (almost always a grocery store)\n(checkers) a popular board game (UK: draughts)\nto mark with alternating colored squares (UK: chequer)",
     "Common": "one who checks (e.g. an inspector)"
   },
-  "cheers ": {
+  "cheers": {
     "British English": "said to express gratitude in England, or on parting (slang). Also cheerio.",
     "Common": "used as a toast or valediction"
   },
@@ -692,6 +710,10 @@
     "American English": "a wooden, raised platform adjoining a house, usu. enclosed by a railing\na packet of narcotics (slang)\n(v.) to pile up (logs) on a deck of logs or a skidway\n(on deck) in baseball, the hitter due up next (\"Albert is on deck, so \nthey must be careful to not walk this batter.\"). A general usage connotes \navailability, e.g. \"Who's on deck?\" (Who is available to do this?). \nOccasionally used to indicate who is next in line.",
     "Common": "(n.) the floor or level of a ship or other types of vehicles\nthe roadway of a bridge\na recording device\n(v.) to decorate for a festivity (\"deck the halls with boughs of holly\", \n\"decked out with flags\")\nto hit a person hard enough such that they fall to the floor (orig. US)\na pack of cards"
   },
+  "deductible": {
+    "American English": "an insurance excess",
+    "Common English": "able to be deducted or allowable as a deduction, particularly of tax"
+  },
   "dennis the menace": {
     "American English": "a character and comic strip developed by Hank Ketcham, debuted in March 1951",
     "British English": "a character and comic strip developed by Ian Chisholm and Davey Law, \ndebuted in March 1951 (US: Dennis)"
@@ -700,6 +722,11 @@
     "American English": "a railroad station or bus terminal or station; also, an air terminal\n(pronounced /ˈdiːpoʊ/)",
     "British English": "a location (large building or piece of land) where buses, trams or trains \nare stored when not in use and maintained\n(pronounced /ˈdɛpoʊ/)",
     "Common": "a storehouse or depository; a location for the storage of military or naval \nsupplies\n(pronounced /ˈdɛpoʊ/ in BrE, /ˈdiːpoʊ/ in AmE)\nA slow-release drug injection (usu. psychiatric)\n(pronounced /ˈdɛpoʊ/ in both dialects)"
+  },
+  "derby": {
+    "American English": "a bowler hat",
+    "British English": "rivalry between two sports teams of close proximity or that frequently meet, especially in football",
+    "Common": "a type of horse race; by extension, any organised race"
   },
   "di": {
     "American English": "Drill instructor (military)",
@@ -961,11 +988,6 @@
     "American English": "a 40-acre (160,000 m2) parcel of land, specifically one sixteenth of a \nsection, constituting the smallest unit of agricultural land commonly \nsurveyed (\"back 40\", \"front 40\").\nan undeveloped plot of land (as on a farm, ranch, etc.) of unspecified size.\nin an urban or youth setting, \"a 40-ounce beer\".",
     "Common": "the number 40"
   },
-  "forward": {
-    "American English": "a position in basketball, nowadays split into power forwards, who tend to \nplay closer to the basket, and small forwards, who tend to either shoot \nfrom the perimeter or drive from the perimeter to the basket.",
-    "British English": "one who plays in a forward position in rugby, i.e. one who takes part in \nscrums.",
-    "Common": "an area to the front\n\nan outgoing disposition\na position in football (soccer) in front of midfielders\na collective term for the ice hockey players whose main role is to score \ngoals, consisting of two wingers and a centre/center"
-  },
   "fourth": {
     "American English": "one of four equal parts into which something is divided (UK & US sometimes \nalso quarter, q.v.).\n(proper noun, used with the) short for The Fourth of July (America's Independence \nDay)",
     "Common": "next after third (e.g. the fourth person, fourth floor) \n\nA musical interval"
@@ -1128,6 +1150,11 @@
     "American English": "a dealer in men's apparel and accessories; hence haberdashery",
     "British English": "a dealer in small items and accessories, as for sewing; hence haberdashery \n(US: notions)"
   },
+  "half": {
+    "American English": "large bottle of spirits (\"a half of bourbon\"), traditionally 1/2 of a US gallon, now the metric near-equivalent of 1750 mL; also \"handle\" as such large bottles often have a handle",
+    "British English": "half pint of beer, cider or lager a single measure of whisky or other distilled spirit (used mostly in Scotland, derived from the Scots word 'hauf')",
+    "Common": "fifty percent/0.5 times"
+  },
   "halfway house": {
     "American English": "a place for ex-convicts to live while readjusting to society.",
     "British English": "a place where victims of child abuse, orphans or teenage runaways can stay, \na shelter",
@@ -1285,6 +1312,11 @@
     "British English": "a fruit flavoured dessert set with gelatin (US: Jell-O (trademark))\na type of condiment, e.g. mint jelly",
     "Common": "a clear or translucent preserve made from the liquid of fruits boiled in \nsugar and set with pectin, specifically without pieces of fruit (e.g. 'crab \napple jelly')"
   },
+  "jersey": {
+    "American English": "A colloquial term for the state of New Jersey.",
+    "British English": "A British Crown dependency off the coast of France.\nAlso, a kind of buttonless, pullover shirt.",
+    "Common": "An athlete's uniform shirt, also called a kit in British English. "
+  },
   "jesse": {
     "British English": "(often as Big Jesse, derogatory insult for a man) Non-macho, effeminate, \nsometimes gay.",
     "Common": "A male name (uncommon in the UK).\nA shortening of the female name Jessica."
@@ -1292,9 +1324,6 @@
   "jock": {
     "American English": "slang term for an athlete\nslang term for the undergarment called an athletic supporter or jockstrap",
     "British English": "a Scotsman (slang)\na Scottish private soldier (slang) (UK: squaddie)"
-  },
-  "john": {
-    "American English": "(slang) a toilet; also, the client of a prostitute"
   },
   "joint": {
     "American English": "(slang) hand-rolled cigarette containing only cannabis\n(slang) prison (\"in the joint\")",
