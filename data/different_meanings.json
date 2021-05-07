@@ -1583,6 +1583,10 @@
     "American English": "ordinary; not rich although not destitute, generally a positive term",
     "British English": "better off than 'working class', but not rich, i.e., a narrower term than \nin the U.S. and often negative"
   },
+  "midway": {
+    "American English": "part of a fair in which there are games, rides, etc.",
+    "Common": "(adv.) in the centre of a line or period "
+  },
   "military": {
     "British English": "relating specifically to the British Army (dated)",
     "Common": "relating to armed forces in general"
@@ -1688,6 +1692,10 @@
     "American English": "5 cent coin (also 'nickle')",
     "Common": "the metallic element (Ni)"
   },
+  "non-profit": {
+    "American English": "(n.) a non-profit organization, particularly a 501(c) organization. There is no direct equivalent in Britain for the latter term which would include, but would not be restricted to all registered charities in Britain but, for example, building societies would also be considered non-profits in the United States",
+    "Common": "(adj.) not conducted with the aim of making a profit, usually for the purpose of health, education, social improvement, political or charitable aims"
+  },
   "nonce": {
     "British English": "a sex offender; in particular, a child molestor (slang)",
     "Common": "the present moment\na word used only once\na single-use token in a cryptographic protocol"
@@ -1699,6 +1707,10 @@
   "nor": {
     "British English": "neither (\"'She didn't come.' 'Nor did he.'\")\n(Scotland & Ireland) than (\"someone better nor me\")",
     "Common": "and not, or (not) (\"neither sad nor happy\"; \"he never eats, nor does he \never feel hungry\")"
+  },
+  "notch": {
+    "American English": "(n.) A deep, narrow mountain pass.",
+    "Common": "(n.) An indentation or incision on an edge or surface.\n(v.) Make notches in."
   },
   "notion": {
     "American English": "small item, particularly of the type used in sewing",
@@ -1712,10 +1724,6 @@
     "American English": "the place where a physician or dentist practices (UK: surgery)",
     "British English": "(cap.) a government department (\"Colonial Office\", \"Foreign and \nCommonwealth Office\")\n(pl.) the outbuildings and dependencies of a dwelling (as an estate)",
     "Common": "a place of business; a position or function\na particular division of an administrative unit (\"Patent Office\")"
-  },
-  "on the telephone": {
-    "British English": "having a working telephone (now rare, since most people do)",
-    "Common": "talking on the telephone"
   },
   "optician": {
     "American English": "professional who dispenses lenses and spectacles",
@@ -1750,6 +1758,11 @@
   "pacifier": {
     "American English": "rubber teat for babies (UK: dummy)",
     "Common": "something or somebody that brings peace"
+  },
+  "paddle": {
+    "American English": "to strike a child with a paddle as a form of corporal punishment (dated usage)",
+    "British English": "a walk through shallow water, especially at the seaside (US approx. wade, also UK usage)",
+    "Common": "an oar used to propel a canoe, kayak or a small boat\nthe action of using such an oar "
   },
   "panda": {
     "British English": "(panda car) police car (slang) (US: zebra, black-and-white)",
@@ -2183,6 +2196,11 @@
     "British English": "to do a runner is to leave suddenly without notice, typically from a taxi \nor restaurant without payment",
     "Common": "a competitor in a race"
   },
+  "run-up": {
+    "American English": "a sudden increase (as in price) (orig. Stock exchange)",
+    "British English": "the period preceding an event (as an election) *\nin cricket, the approach a bowler makes when preparing to deliver the ball ",
+    "Common": "the act of running up"
+  },
   "saloon": {
     "American English": "bar, especially in the American Old West\n\nbar that serves only spirits and no food\na room in a house used for receiving guests; a salon",
     "British English": "closed car having two or (usu.) four doors, a front and rear seat and a \nseparate boot/trunk (US: sedan)\n(saloon bar) posh bar within a pub or hotel\npassengers' lounge on a liner or luxury train (US approx.: parlor car)",
@@ -2225,11 +2243,6 @@
   "semi": {
     "American English": "semi-trailer truck (UK: articulated lorry)",
     "British English": "semi-detached house (US: duplex), semi-erection (vulgar)"
-  },
-  "series": {
-    "American English": "all of the episodes of a particular television program",
-    "British English": "a single batch of episodes of a television programme (US: season)",
-    "Common": "a complete production, i.e. the programme itself"
   },
   "set square": {
     "American English": "a T-square (also used in technical drawing)",
@@ -2466,6 +2479,10 @@
     "American English": "(n.) a hiding place, or something (esp. drug or liquor) stored away",
     "British English": "(v.) to quit, put an end to (\"to stash it\")",
     "Common": "(v.) to store away"
+  },
+  "staycation": {
+    "British English": "travelling for pleasure or business within one's country (US: domestic vacation)",
+    "Common": "a holiday or vacation where the people return home each night (or most nights) "
   },
   "stick": {
     "British English": "abuse, insult, or denigration (\"to give stick\")",
@@ -3000,9 +3017,5 @@
     "American English": "zero (often in scores, similar to the UK's nil)\n(often all cap.) the ZIP code (from Zone Improvement Plan), the postal \ncode used by the USPS",
     "British English": "(short for zip fastener) a fastening device (US: zipper)",
     "Common": "a sharp, hissing sound\nimpetus\nfile format for compressed files (\"archive.zip\")"
-  },
-  "à la mode": {
-    "American English": "with ice cream (ex. Apple pie à la mode)",
-    "Common": "fashionable"
   }
 }
