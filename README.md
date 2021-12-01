@@ -1,6 +1,6 @@
 # American British English Translator
 
-Now online at: [http://codewordsolver.com/american-british-english-translator](http://codewordsolver.com/american-british-english-translator)
+Now online at: [https://codewordsolver.com/american-british-english-translator](http://codewordsolver.com/american-british-english-translator)
 
 Reads in a text and identifies words that differ in usage between American English and British English, including:
   1. Words with alternative spellings ("cozy" / "cosy")
