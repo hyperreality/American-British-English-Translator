@@ -13,7 +13,8 @@ var options = {
     exclusive: argv.exclusive,
     spelling: argv.spelling,
     different: argv.different,
-    showall: argv.showall
+    showall: argv.showall,
+    firstonly: argv.firstonly,
 };
 
 var translate = function (input) {
