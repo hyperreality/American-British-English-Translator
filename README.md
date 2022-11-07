@@ -65,6 +65,9 @@ $ english-translate --british --spelling
 # Don't check spelling differences or different meanings, only check for meanings exclusive to one of the dialects
 $ english-translate --exclusive
 
+# Print only the first instance of any identified words
+$ english-translate --firstonly
+
 # Do not use colors
 $ english-translate --no-color
 ```
